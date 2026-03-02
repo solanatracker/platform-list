@@ -6,7 +6,7 @@ const nameSchema = z
   .max(80, "Name must not exceed 80 characters")
   .regex(/^[^\s].*[^\s]$|^[^\s]$/, "Name must not start or end with whitespace")
   .regex(
-    /^[a-zA-Z0-9\s\-.()'&_+\u00C0-\u017F]+$/,
+    /^[a-zA-Z0-9\s\-.()'&_+^\u00C0-\u017F]+$/,
     "Name can only contain letters (including accented), numbers, spaces, hyphens, underscores, periods, parentheses, apostrophes, ampersands, and plus signs",
   );
 
