@@ -105,7 +105,7 @@ import * as dynamic from "./dynamic";
 import * as elemental from "./elemental";
 import * as ensofi from "./ensofi";
 import * as epicentral from "./epicentral";
-import * as eternalstakefinance from "./eternal-stake-finance"
+import * as eternalstakefinance from "./eternalstakefinance";
 import * as etherfuse from "./etherfuse";
 import * as exoticmarkets from "./exoticmarkets";
 import * as exponent from "./exponent";
@@ -240,6 +240,7 @@ import * as omni from "./omni";
 import * as omnipair from "./omnipair";
 import * as ondoFinance from "./ondo-finance";
 import * as onre from "./onre";
+import * as oobeprotocol from "./oobeprotocol";
 import * as oobit from "./oobit";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
@@ -634,6 +635,7 @@ export const platforms: PlatformRaw[] = [
   omnipair.platform,
   ondoFinance.platform,
   onre.platform,
+  oobeprotocol.platform,
   oobit.platform,
   openbook.platform,
   openloop.platform,
@@ -1029,6 +1031,7 @@ export const services: ServiceRaw[] = [
   ...omnipair.services,
   ...ondoFinance.services,
   ...onre.services,
+  ...oobeprotocol.services,
   ...oobit.services,
   ...openbook.services,
   ...openloop.services,
