@@ -243,6 +243,7 @@ import * as oobeprotocol from "./oobeprotocol";
 import * as oobit from "./oobit";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
+import * as orbmarkets from "./orbmarkets";
 import * as orca from "./orca";
 import * as orderly from "./orderly";
 import * as ore from "./ore";
@@ -388,7 +389,6 @@ import * as wintermute from "./wintermute";
 import * as worldpay from "./worldpay";
 import * as wormhole from "./wormhole";
 import * as wzrd from "./wzrd";
-import * as xray from "./xray";
 import * as xstocks from "./xstocks";
 import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
@@ -642,6 +642,7 @@ export const platforms: PlatformRaw[] = [
   oobit.platform,
   openbook.platform,
   openloop.platform,
+  orbmarkets.platform,
   orca.platform,
   orderly.platform,
   ore.platform,
@@ -787,7 +788,6 @@ export const platforms: PlatformRaw[] = [
   worldpay.platform,
   wormhole.platform,
   wzrd.platform,
-  xray.platform,
   xstocks.platform,
   y00ts.platform,
   yaku.platform,
@@ -1042,6 +1042,7 @@ export const services: ServiceRaw[] = [
   ...oobit.services,
   ...openbook.services,
   ...openloop.services,
+  ...orbmarkets.services,
   ...orca.services,
   ...orderly.services,
   ...ore.services,
@@ -1187,7 +1188,6 @@ export const services: ServiceRaw[] = [
   ...worldpay.services,
   ...wormhole.services,
   ...wzrd.services,
-  ...xray.services,
   ...xstocks.services,
   ...y00ts.services,
   ...yaku.services,
