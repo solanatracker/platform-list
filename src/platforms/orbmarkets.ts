@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     "Orb Markets is a Solana block explorer with detailed transaction and account data.",
   links: {
     website: "https://orbmarkets.io/",
-    twitter: "https://x.com/orbmarkets",
+    twitter: "https://x.com/Orb_Markets",
   },
   tags: ["explorer"],
   addedAt: 1772637185547,

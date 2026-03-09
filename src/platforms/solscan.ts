@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     "Solscan is a block explorer and analytics platform for the Solana blockchain.",
   links: {
     website: "https://solscan.io/",
-    twitter: "https://x.com/solscan_io",
+    twitter: "https://x.com/solscanofficial",
     documentation: "https://docs.solscan.io/",
   },
   tags: ["explorer"],

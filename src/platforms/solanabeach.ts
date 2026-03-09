@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     "SolanaBeach is a block explorer for the Solana network with real-time validator and transaction data.",
   links: {
     website: "https://solanabeach.io/",
-    twitter: "https://x.com/SolanaBeach",
+    twitter: "https://x.com/solanabeach_io",
     github: "https://github.com/solana-beach",
   },
   tags: ["explorer"],
