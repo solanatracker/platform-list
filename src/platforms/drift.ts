@@ -80,4 +80,5 @@ export const services: ServiceRaw[] = [
   perpsService,
   marketMakerService,
   airdropService,
+  vaultsService,
 ];
