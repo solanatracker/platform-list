@@ -58,8 +58,16 @@ export const missionsService: ServiceRaw = {
     "Gamified staking feature where Foxes embark on themed adventures to earn Treasury Chests and FAME tokens for cosmetic upgrades.",
 };
 
+export const tmiService: ServiceRaw = {
+  id: `${platform.id}-tmi`,
+  name: "TMI",
+  platformId: platform.id,
+  contractsRaw: [],
+};
+
 export const services: ServiceRaw[] = [
   stakingService,
   mainService,
   missionsService,
+  tmiService,
 ];
