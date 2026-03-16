@@ -216,6 +216,13 @@ export const ultraSwapService: ServiceRaw = {
   contractsRaw: [],
 };
 
+export const reclaimService: ServiceRaw = {
+  id: `${platform.id}-reclaim`,
+  name: "Reclaim",
+  platformId: platform.id,
+  contractsRaw: [],
+};
+
 export const manualSwapService: ServiceRaw = {
   id: `${platform.id}-manual-swap`,
   name: "Manual Swap",
@@ -384,4 +391,5 @@ export const services: ServiceRaw[] = [
   lendService,
   rewardsHubService,
   deltaNeutralVaultService,
+  reclaimService,
 ];
