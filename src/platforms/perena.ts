@@ -23,6 +23,12 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
+const starContract = {
+  name: "Perena",
+  address: "save8RQVPMWNTzU18t3GBvBkN9hT7jsGjiCQ28FpD9H",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: "perena-numeraire",
   name: "Numéraire",
@@ -30,4 +36,11 @@ export const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [service];
+export const starService: ServiceRaw = {
+  id: "perena-star",
+  name: "usdstar",
+  platformId: platform.id,
+  contractsRaw: [starContract],
+};
+
+export const services: ServiceRaw[] = [service, starService];
